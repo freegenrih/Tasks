@@ -1,7 +1,8 @@
 #!/usr/bin/python
-from requests import get, put, delete, post
 import unittest
 import json
+
+from requests import get, put, delete, post
 
 BASE_URL = 'http://localhost:5000/'
 
